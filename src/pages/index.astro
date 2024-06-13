@@ -1,8 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
-
-import './layouts/global.css'
 ---
 
 <Layout title="Web Ayuda.">
@@ -75,6 +73,7 @@ import './layouts/global.css'
 				body="Canva de la presentacion."
 				/>
 		</ul>
+	<main>Web Ayuda | Creada por Antolin y Aitor |<maen>2024</maen></main>
 	</main>
 </Layout>
 
@@ -85,6 +84,15 @@ import './layouts/global.css'
 		width: 800px;
 		max-width: calc(100% - 2rem);
 		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	maen {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: rgb(58, 126, 143);
 		font-size: 20px;
 		line-height: 1.6;
 	}
