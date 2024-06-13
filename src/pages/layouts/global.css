@@ -1,0 +1,14 @@
+body {
+    background-image: url('./fondo.png'); /* Ruta a tu imagen en la carpeta public */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra toda la pantalla */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
